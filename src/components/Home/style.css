@@ -1,0 +1,75 @@
+/*@font-face{
+    font-family: Oswald-SemiBold;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+    
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+.container__home{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: inherit;
+}
+
+.home {
+    width: 100%;
+    padding: 0px 70px 70px 70px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../../assets/images/netzwerk.jpg);
+    
+    
+}
+
+.nome_da_ej{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Oswald-SemiBold;
+    margin: 17% 0 0 0;
+}
+
+
+.sight{
+
+    color: white;
+    font-size: 6em;
+}
+
+
+.aling__end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text__home{
+    font-size: 1.5em ;
+    font-family: Montserrat-Regular;
+    margin: 8% 0 0 0;
+    color: white !important;
+}
+
+.button__contato{
+    width: 15em;
+    height: 3em;
+    color: white;
+    background-color: #48D1CC;
+    border-radius: .3em ;
+    border: none;
+    font-size: 1em;
+    margin: 4em 10px 10px 10px;
+    font-family: Montserrat-Bold;
+
+}*/

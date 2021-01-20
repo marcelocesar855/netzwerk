@@ -18,7 +18,7 @@ class slider extends Component {
             <div className="traco"></div>
          </div>
          <div className="aling__end">
-         <p className="text__home">Dar Vida ao seu projeto<br/> é o nosso objetivo</p>
+         <p className="text__home">Daaaar Vida ao seu projeto<br/> é o nosso objetivo</p>
          <a href="#contato"><button className="button__contato">Conheça a Visão</button></a>
          </div>
       </div>

@@ -1,41 +1,46 @@
 
 import React from 'react';
-
+import image from '../../assets/images/Vision3DnoBG.png'
 import './style.css'
-import image from './image.jpg';
-
 
 const Sobre = () => {
 
     return (
-
-        <container id="sobre" className="container__sobre">
-
+        <container id="home" className="container__home">
             <div className="sobre">
-                <div className="title">
-                    <div className="title__sobre">Sobre</div>
-                    <div className="traco"></div>
-                </div>
+                <div className="title__sobre">Earth Oasis Netzwerk - Die Vision</div>
+                <div className="traco"></div>
                 <div className="sobre__info">
                     <p className="sobre__text">
-                        Somos a 7Sight, Empresa Júnior, gerida e
-                        composta por alunos do curso de Sistemas de
-                        Informação da UNIEURO de Brasília. Formada em
-                        Março de 2018, colocamos na prática o
-                        conhecimento adquirido em sala de aula,
-                        promovendo a capacitação dos membros ao
-                        atender nossos clientes buscando sempre a
-                        melhor solução!
-                    </p> 
-                    <img className="sobre__image" src={image}/> 
-                      
+                    Ist es denkbar, dass wir Menschen auf dieser Erde
+                    friedlich miteinander leben? Mit gegenseitigem Respekt
+                    und ohne Kriege, Ausbeutung und Machtmissbrauch?
+                    Ja, wir müssen „nur“ das Paradigma ändern, nachdem
+                    wir leben!
+
+                    Das Earth Oasis Netzwerk bietet mit seiner Vision, die
+                    Vorlage für eine neues Lebensmodell des modernen,
+                    erwachten Menschen.
+                    Eine Vision, in der die Menschen kooperieren, anstatt
+                    wettzustreiten. In der das Miteinander zu Fülle und
+                    Wohlstand aller führt und nicht zu Arm und Reicher.
+                    Das wahre Potential des Menschen ist die Liebe und das
+                    Mitgefühl – nur haben wir das heute vergessen. Die
+                    EON VISION bietet die Architektur für ein erwachtes
+                    Leben in einer für Alle gedeihenden Welt und zeigt, das
+                    es möglich ist die Natur des Menschen in Einklang zu
+                    bringen, mit der Natur der Erde.
+                    </p>
+                    <div className='sobre__image'>
+                        <span class="helper"></span>
+                        <img src={image} alt="Imagem da 7sight" /> 
+                    </div>
                 </div>
             </div>
-            
         </container>
     );
     
-    };
+};
 
 
 

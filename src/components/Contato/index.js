@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import iconfacebook from '../../assets/svg/iconfacebook.svg'
 import iconinstagran from '../../assets/svg/iconinstagran.svg'
 import iconlinkedin from '../../assets/svg/iconlinkedin.svg'
 
@@ -34,8 +33,8 @@ const Contato = () => {
                   Centro Universitário Euro-Americano
                </p>
                <div className="contato__info__endereco">Redes Sociais</div>
-               <a href="https://www.instagram.com/7sightjr/"><img className="contato_icons" src={iconinstagran}></img></a>
-               <a href="https://br.linkedin.com/company/7sight"><img className="contato_icons" src={iconlinkedin}></img></a>
+               <a href="https://www.instagram.com/7sightjr/"><img className="contato_icons" src={iconinstagran} alt="teste"></img></a>
+               <a href="https://br.linkedin.com/company/7sight"><img className="contato_icons" src={iconlinkedin} alt="teste"></img></a>
             </div>
          </div>
       </div>   

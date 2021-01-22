@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     height: 100%;
+    width: inherit;
 }
 
 .sobre {
@@ -36,7 +37,7 @@
 .sobre__info{
     display: flex;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .sobre__text{
@@ -47,12 +48,12 @@
 }
 
 .sobre__image{
-    margin-left: 6%;
+    margin-left: 2%;
 }
 
 .helper {
     display: inline-block;
-    height: 95%;
+    height: 90%;
     vertical-align: middle;
 }
 
@@ -68,12 +69,8 @@
 
     }
     .sobre__text{
-        margin-top: 1.5em;
         font-size: 1em;
         width: 100%; 
 
-    }
-    .sobre__image{
-        margin: 1em;
     }
 }

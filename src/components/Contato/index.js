@@ -1,49 +1,44 @@
+
 import React from 'react';
-import './style.css';
-import iconinstagran from '../../assets/svg/iconinstagran.svg'
-import iconlinkedin from '../../assets/svg/iconlinkedin.svg'
+import image from '../../assets/images/vision3D2.png'
+import './style.css'
 
+const Sobre = () => {
 
+    return (
+        <container className="container__sobre">
+            <div className="sobre">
+                <div className="title__sobre">Earth Oasis Netzwerk - Die Essenz</div>
+                <div className="traco"></div>
+                <div className="sobre__info">
+                    <p className="sobre__text">
+                    Die Essenz ist das Grundlagenbuch der Vision in
+                    komprimierter Form. Hier findest du die wichtigsten
+                    Leitgedanken und Ideen der Vision des Earth Oasis
+                    Netzwerk auf knapp 170 Buchseiten.
 
-const Contato = () => {
-
-   return(
-   <container id="contato" className="container__contato">
-      
-      <div className="contato">
-         <div className="title__contato">Contato</div>
-         <div className="traco"></div>
-
-         <div className="contato__itens">
-         <div className="contato__form">
-            <form className="form">
-         
-               <input type="text" id="name" name="fname" placeholder=" Nome"></input>
-               <input type="tel" id="fone" name="fone" placeholder=" 55 (00) 00000-0000"></input>
-               <input type="e-mail" id="email" name="email" placeholder=" E-mail"></input>
-               <textarea type="mensage" id="mensage" placeholder="Nós diga o que você está pensando..." ></textarea>
-               <button type="submit">Enviar</button>
-            </form>
-         </div>
-         <div className="contato__i">
-            <div className="contato__info">
-               <div className="contato__info__endereco">Endereço</div>
-               <p>
-                  Av. das Castanheiras, S/N - Lote 3700 - Águas Claras, Brasília - DF, 70297-400<br/>
-                  Centro Universitário Euro-Americano
-               </p>
-               <div className="contato__info__endereco">Redes Sociais</div>
-               <a href="https://www.instagram.com/7sightjr/"><img className="contato_icons" src={iconinstagran} alt="teste"></img></a>
-               <a href="https://br.linkedin.com/company/7sight"><img className="contato_icons" src={iconlinkedin} alt="teste"></img></a>
+                    Für all diejenigen, die sich für diese Vision interessieren,
+                    stellen wir das Buch zum Download kostenfrei bereit.
+                    Dazu muss man sich lediglich im Netzwerk anmelden,
+                    ohne eine Art der Verpflichtung, versteht sich. Es geht
+                    uns darum, jedermann/frau das Netzwerk vorzustellen,
+                    um die Möglichkeit zu eröffnen sich damit weiter zu
+                    befassen und aktiv daran mitzuwirken.
+                    Natürlich kann man das Buch auch bestellen –
+                    zusammen mit Band 1 und Band 2 oder auch nur das
+                    Essenzbuch als Einzelausgabe.
+                    </p>
+                    <div className='sobre__image'>
+                        <span class="helper"></span>
+                        <img src={image} alt="Imagem da 7sight" /> 
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>   
-      </div>
-      
-      
-   </container>
+        </container>
+    );
     
+};
 
-   )};
 
-export default Contato; 
+
+export default Sobre;

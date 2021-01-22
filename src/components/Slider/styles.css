@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   height: 100%;
+  width: inherit;
 }
 
 .home {
@@ -135,16 +136,16 @@
   --content-background-color: #2f2f2f; }
 
   
-  @media all and (max-width: 375px) {
+  @media all and (max-width: 376px) {
     .awssld__controls {
       visibility: hidden; 
     } 
     .awssld {
-      --slider-height-percentage: 140%; 
+      --slider-height-percentage: 120%; 
     }
   }
   
-  @media all and (max-width: 450px) and (min-width: 376px) {
+  @media all and (max-width: 450px) and (min-width: 377px) {
     .awssld__controls {
       visibility: hidden; 
     } 

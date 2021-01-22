@@ -1,12 +1,12 @@
 
 import React from 'react';
-import image from '../../assets/images/Vision3DnoBG.png'
+import image from '../../assets/images/vision3D.png'
 import './style.css'
 
 const Sobre = () => {
 
     return (
-        <container id="home" className="container__home">
+        <container className="container__sobre">
             <div className="sobre">
                 <div className="title__sobre">Earth Oasis Netzwerk - Die Vision</div>
                 <div className="traco"></div>

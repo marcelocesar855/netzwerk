@@ -1,7 +1,6 @@
 @font-face{
     font-family: Oswald-Regular;
     src: url(../../assets/fonts/Oswald-Regular.ttf);
-    
 }
 
 @font-face{
@@ -14,152 +13,64 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
-html{
-    font-size: 62,5%;
-}
-
-.container__contato{
+.container__sobre{
     display: flex;
     justify-content: center;
     height: 100%;
-    
+    width: inherit;
 }
 
-.contato {
-    width: 1400px;
-    margin: 0 5% 5%;
-    background: black;  
+.sobre {
+    max-width: 100%;
+    padding: 5%;
+    background: white;
 }
 
-.title__contato{
-
-    color: white;
-    margin: 5% 0 .5% 0;
+.title__sobre{
+    color: #48D1CC;
+    text-shadow: 2px 2px 2px black;
     font-size: 3rem;
     font-family: Oswald-Regular;
 
 }
-.contato__itens{
+
+.sobre__info{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-
+    text-align: center;
+    margin-top: 2em;
 }
 
-.contato__form{
-    width: 40%;
-}
-.form{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-top: 5em;
-
-
-}
-.form input {
-    height: 3em;
-}
-
-.form input, textarea{
-
-    margin-bottom:2em ;
-    width: 100%;
-    text-align: start;
-    background: rgb(0, 0, 0);
-    border-top: rgb(0, 0, 0);
-    border-left: black;
-    border-right: black;
-    border-bottom-color: #6CE95A ;
-    border-bottom-width: .3em;
-    color: rgb(255, 255, 255);
-    font-family: Montserrat-Bold;
-    font-size: 1em;
-    outline: #6CE95A;
-    transition: all .2s;
-
-
-}
-
-.form input:focus{
-   background: rgb(24, 24, 24);
-}
-
-.form textarea:focus{
-    background: rgb(24, 24, 24);
- }
-
-
-button{
-    width: 10em;
-    height: 2.5em;
-    background-color: #6CE95A;
-    border-radius: .3em ;
-    border: none;
+.sobre__text{
     color: black;
-    font-size: 1.2em;
-    font-family: Montserrat-Bold;
-    transition: all .2s;
+    font-family: Montserrat-Regular;    
+    font-size: 1.25em;
+    text-align: justify;
 }
 
-button:hover{
-    color: white;
-    
-
+.sobre__image{
+    margin-left: 2%;
 }
 
-.divisao{
-    height: 10em;
-    width: .5em;
-    background: #6CE95A;
-    color: white;
-    border-radius: .5em ;
-    
+.helper {
+    display: inline-block;
+    height: 90%;
+    vertical-align: middle;
 }
 
-.contato__i{
-    width: 40%;
-    display: flex;
-    align-items: flex-end;
+.sobre__image img{
+    vertical-align: middle;
 }
-
-
-
-.contato__info__endereco{
-
-    color: white;
-    font-family: Oswald-Regular;
-    font-size: 2em;
-
-}
-
-.contato__info p{
-    padding-top: 1em;
-    color: white;
-    font-family: Montserrat-Bold;
-}
-
-.contato_icons{
-    width: 5em;
-    padding-top: 1em;
-    padding-right: 1em;
-    
-}
-
 @media (max-width: 900px) {
 
-    .contato__form{
-        width: 100%;
-    }
-    .contato__itens{
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .contato__i{
-        width: 100% !important;
-        padding-top: 2em;
-    }
-   
-}
 
+    .sobre__info{
+        align-items: center;
+        flex-wrap: wrap; /*função pra quebrar os elemntos*/
+
+    }
+    .sobre__text{
+        font-size: 1em;
+        width: 100%; 
+
+    }
+}

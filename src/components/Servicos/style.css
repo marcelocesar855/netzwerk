@@ -46,7 +46,7 @@
 }
 
 .sobre__info{
-    display: flex;
+    display:flex;
     text-align: center;
     margin-top: 2em;
 }
@@ -76,7 +76,12 @@
     .sobre__info{
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
+    }
 
+    .sobre__image1{
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
     }
     .sobre__text{
         font-size: 1em;

@@ -73,4 +73,9 @@
         width: 100%; 
 
     }
+    
+    .sobre__image{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

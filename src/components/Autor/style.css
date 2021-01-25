@@ -78,6 +78,11 @@
 @media (max-width: 900px) {
 
 
+    .sobre__image2 img{
+        height: 260px;
+        width: auto;
+    }
+
     .sobre__info{
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/

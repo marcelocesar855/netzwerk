@@ -3,15 +3,15 @@ import React from 'react';
 import image from '../../assets/images/vision3D.png'
 import './style.css'
 
-const Sobre = () => {
+const Vision = () => {
 
     return (
-        <container className="container__sobre">
-            <div className="sobre">
-                <div className="title__sobre">Earth Oasis Netzwerk - Die Vision</div>
-                <div className="traco"></div>
-                <div className="sobre__info">
-                    <p className="sobre__text">
+        <container className="container-main">
+            <div className="content-l">
+                <div className="title-l">Earth Oasis Netzwerk - Die Vision</div>
+                <div className="traco-l"></div>
+                <div className="info">
+                    <p className="text">
                     Ist es denkbar, dass wir Menschen auf dieser Erde
                     friedlich miteinander leben? Mit gegenseitigem Respekt
                     und ohne Kriege, Ausbeutung und Machtmissbrauch?
@@ -31,9 +31,9 @@ const Sobre = () => {
                     es möglich ist die Natur des Menschen in Einklang zu
                     bringen, mit der Natur der Erde.
                     </p>
-                    <div className='sobre__image'>
+                    <div className='image-l'>
                         <span class="helper"></span>
-                        <img src={image} alt="Imagem da 7sight" /> 
+                        <img src={image} alt="EON - DIE VISION" /> 
                     </div>
                 </div>
             </div>
@@ -44,4 +44,4 @@ const Sobre = () => {
 
 
 
-export default Sobre;
+export default Vision;

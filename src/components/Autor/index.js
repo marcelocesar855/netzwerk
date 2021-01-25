@@ -1,20 +1,20 @@
 
 import React from 'react';
-import image from '../../assets/images/v2.png'
+import image from '../../assets/images/autor.png'
 import './style.css'
 
-const Sobre = () => {
+const Autor = () => {
 
     return (
-        <container className="container__sobre">
-            <div className="sobre1">
-                <div className="title__sobre1">Über den Autor</div>
-                <div className="traco1"></div>
-                <div className="sobre__info">
-                    <p className="sobre__text1">
-                    <div className='sobre__image2'>
+        <container className="container-main">
+            <div className="content-r">
+                <div className="title-r">Über den Autor</div>
+                <div className="traco-r"></div>
+                <div className="info">
+                    <p className="text">
+                    <div className='image-autor'>
                         <span class="helper"></span>
-                        <img src={image} alt="Imagem da 7sight" /> 
+                        <img src={image} alt="EON - AUTOR" /> 
                     </div>
                     Victor Rollhausen ist Visionär aus Leidenschaft. Schon in den 80er Jahren initiierte und
                     beriet er erfolgreich viele ganzheitlich-spirituelle Firmen, Unternehmensgründer und
@@ -40,4 +40,4 @@ const Sobre = () => {
 
 
 
-export default Sobre;
+export default Autor;

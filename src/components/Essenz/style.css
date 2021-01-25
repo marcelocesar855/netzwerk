@@ -13,20 +13,20 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
-.container__sobre{
+.container-main{
     display: flex;
     justify-content: center;
     height: 100%;
     width: inherit;
 }
 
-.sobre {
+.content-l {
     max-width: 100%;
     padding: 5%;
     background: white;
 }
 
-.title__sobre{
+.title-l{
     color: #48D1CC;
     text-shadow: 2px 2px 2px black;
     font-size: 3rem;
@@ -34,20 +34,20 @@
 
 }
 
-.sobre__info{
+.info{
     display: flex;
     text-align: center;
     margin-top: 2em;
 }
 
-.sobre__text{
+.text{
     color: black;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
     text-align: justify;
 }
 
-.sobre__image{
+.image-l{
     margin-left: 2%;
 }
 
@@ -57,24 +57,24 @@
     vertical-align: middle;
 }
 
-.sobre__image img{
+.image-l img{
     vertical-align: middle;
 }
 @media (max-width: 900px) {
 
 
-    .sobre__info{
+    .info{
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
 
     }
-    .sobre__text{
+    .text{
         font-size: 1em;
         width: 100%; 
 
     }
     
-    .sobre__image{
+    .image-l{
         margin-left: auto;
         margin-right: auto;
     }

@@ -1,17 +1,17 @@
 
 import React from 'react';
-import image from '../../assets/images/vision3D2.png'
+import image from '../../assets/images/essenz3D.png'
 import './style.css'
 
-const Sobre = () => {
+const Essenz = () => {
 
     return (
-        <container className="container__sobre">
-            <div className="sobre">
-                <div className="title__sobre">Earth Oasis Netzwerk - Die Essenz</div>
-                <div className="traco"></div>
-                <div className="sobre__info">
-                    <p className="sobre__text">
+        <container className="container-main">
+            <div className="content-l">
+                <div className="title-l">Earth Oasis Netzwerk - Die Essenz</div>
+                <div className="traco-l"></div>
+                <div className="info">
+                    <p className="text">
                     Die Essenz ist das Grundlagenbuch der Vision in
                     komprimierter Form. Hier findest du die wichtigsten
                     Leitgedanken und Ideen der Vision des Earth Oasis
@@ -28,9 +28,9 @@ const Sobre = () => {
                     zusammen mit Band 1 und Band 2 oder auch nur das
                     Essenzbuch als Einzelausgabe.
                     </p>
-                    <div className='sobre__image'>
+                    <div className='image-l'>
                         <span class="helper"></span>
-                        <img src={image} alt="Imagem da 7sight" /> 
+                        <img src={image} alt="EON - ESSENZ" /> 
                     </div>
                 </div>
             </div>
@@ -41,4 +41,4 @@ const Sobre = () => {
 
 
 
-export default Sobre;
+export default Essenz;

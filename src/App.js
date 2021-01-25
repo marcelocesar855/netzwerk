@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
-import Sobre from './components/Sobre'
-import Servicos from './components/Servicos';
-import Contato from './components/Contato'
+import Vision from './components/Vision'
+import Entfaltung from './components/Entfaltung';
+import Essenz from './components/Essenz'
 import Slider from './components/Slider'
 import Autor from './components/Autor'
 import Footer from './components/Footer'
@@ -21,9 +21,9 @@ class App extends Component {
       <div>
         <Header />
         <Slider/>
-        <Sobre />
-        <Servicos />
-        <Contato />
+        <Vision />
+        <Entfaltung />
+        <Essenz />
         <Autor/>
         <Footer/>
       </div>

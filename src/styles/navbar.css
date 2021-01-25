@@ -26,7 +26,7 @@
     margin: 6px 0;
   }
 
-.seven-navbar{
+.eon-navbar{
     background-color: transparent;
     padding: 7px 10px 0px 10px;
     font-family: Montserrat-SemiBold;
@@ -36,10 +36,6 @@
 
 .navbar {
     border-top: 1px solid white;
-}
-
-.nav-text a { 
-    color: #6CE95A; 
 }
 
 .navbar-nav > li{
@@ -56,10 +52,6 @@
 .nav-text a:hover {
     color: #D3D3D3;
     border-bottom: 2px solid #D3D3D3;
-}
-
-.fab{
-    z-index: 5;
 }
 
 @keyframes nav{

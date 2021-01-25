@@ -13,21 +13,20 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
-.container__sobre{
+.container-main{
     display: flex;
     justify-content: center;
     height: 100%;
     width: inherit;
 }
 
-.sobre1 {
+.content-l {
     max-width: 100%;
     padding: 5%;
-    background: #F5F5F5;
+    background: white;
 }
 
-.title__sobre1{
-    text-align: right;
+.title-l{
     color: #48D1CC;
     text-shadow: 2px 2px 2px black;
     font-size: 3rem;
@@ -35,31 +34,21 @@
 
 }
 
-.traco1{
-  width: 5em;
-  float:right;
-  margin-right: 15px;
-  box-shadow: 2px 2px 2px black;
-  height: .5em;
-  background: #48D1CC;
-  border-radius: .2em;
-}
-
-.sobre__info{
-    display:flex;
+.info{
+    display: flex;
     text-align: center;
     margin-top: 2em;
 }
 
-.sobre__text{
+.text{
     color: black;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
     text-align: justify;
 }
 
-.sobre__image1{
-    margin-right: 5%;
+.image-l{
+    margin-left: 2%;
 }
 
 .helper {
@@ -68,22 +57,25 @@
     vertical-align: middle;
 }
 
-.sobre__image1 img{
+.image-l img{
     vertical-align: middle;
 }
+
 @media (max-width: 900px) {
 
-    .sobre__info{
+
+    .info-l{
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
+
     }
 
-    .sobre__image1{
+    .image-l{
         margin-left: auto;
         margin-right: auto;
-        order: 2;
     }
-    .sobre__text{
+
+    .text-l{
         font-size: 1em;
         width: 100%; 
 

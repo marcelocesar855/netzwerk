@@ -1,9 +1,8 @@
 
 import React from 'react';
-import image from '../../assets/images/v2.png'
 import './style.css'
 
-const Sobre = () => {
+const Footer = () => {
 
     return (
         <container className="container__sobre2">
@@ -19,4 +18,4 @@ const Sobre = () => {
 
 
 
-export default Sobre;
+export default Footer;

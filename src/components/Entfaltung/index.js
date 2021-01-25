@@ -1,21 +1,21 @@
 
 import React from 'react';
-import image from '../../assets/images/vision3D1.png'
+import image from '../../assets/images/entfaltung3D.png'
 import './style.css'
 
 const Sobre = () => {
 
     return (
-        <container className="container__sobre">
-            <div className="sobre1">
-                <div className="title__sobre1">Earth Oasis Netzwerk - Die Entfaltung</div>
-                <div className="traco1"></div>
-                <div className="sobre__info">
-                    <div className='sobre__image1'>
+        <container className="container-main">
+            <div className="content-r">
+                <div className="title-r">Earth Oasis Netzwerk - Die Entfaltung</div>
+                <div className="traco-r"></div>
+                <div className="info">
+                    <div className='image-r'>
                         <span class="helper"></span>
-                        <img src={image} alt="Imagem da 7sight" /> 
+                        <img src={image} alt="EON - DIE ENTFALTUNG" /> 
                     </div>
-                    <p className="sobre__text">
+                    <p className="text">
                     Wir schreiben das Jahr 2045! Es ist das 20 jährige
                     Jubiläum des Earth Oasis Netzwerk. Die Pioniere der
 

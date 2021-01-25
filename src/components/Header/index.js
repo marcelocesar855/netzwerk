@@ -42,7 +42,7 @@ class Header extends Component {
 }
   render () {
     return (
-    <div  id='navbar' className='fixed-top seven-navbar'>
+    <div  id='navbar' className='fixed-top eon-navbar'>
       <Navbar className="nav-text" expand="md">
         <NavbarBrand href="#home">Earth Oasis Network</NavbarBrand>
         <NavbarToggler onClick={this.toggle} >

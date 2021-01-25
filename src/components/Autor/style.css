@@ -13,20 +13,20 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
-.container__sobre{
+.container-main{
     display: flex;
     justify-content: center;
     height: 100%;
     width: inherit;
 }
 
-.sobre1 {
+.content-r {
     max-width: 100%;
     padding: 5%;
     background: #F5F5F5;
 }
 
-.title__sobre1{
+.title-r{
     text-align: right;
     color: #48D1CC;
     text-shadow: 2px 2px 2px black;
@@ -35,7 +35,7 @@
 
 }
 
-.traco1{
+.traco-r{
   width: 5em;
   float:right;
   margin-right: 15px;
@@ -45,20 +45,20 @@
   border-radius: .2em;
 }
 
-.sobre__info{
+.info{
     display: flex;
     text-align: center;
     margin-top: 2em;
 }
 
-.sobre__text1{
+.text{
     color: black;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
     text-align: justify;
 }
 
-.sobre__image2{
+.image-autor{
     margin-right: 5%;
 }
 
@@ -68,7 +68,7 @@
     vertical-align: middle;
 }
 
-.sobre__image2 img{
+.image-autor img{
     vertical-align: middle;
     margin-right: 1.5em;
     border-radius: 45%; 
@@ -78,17 +78,17 @@
 @media (max-width: 900px) {
 
 
-    .sobre__image2 img{
+    .image-autor img{
         height: 260px;
         width: auto;
     }
 
-    .sobre__info{
+    .info{
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
 
     }
-    .sobre__text1{
+    .text{
         font-size: 1em;
         width: 100%; 
 

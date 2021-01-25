@@ -1,0 +1,41 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+.container__sobre{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: inherit;
+}
+
+.sobre2 {
+    width: 100%;
+    padding: 10px;
+    background: #48D1CC;
+    opacity: 80%;
+    
+}
+
+.sobre2 p{
+  text-align: center;
+  margin: auto;    
+}
+
+@media (max-width: 900px) {
+    .sobre__text1{
+        font-size: 1em;
+        width: 100%; 
+    }
+}

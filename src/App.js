@@ -4,6 +4,7 @@ import Sobre from './components/Sobre'
 import Servicos from './components/Servicos';
 import Contato from './components/Contato'
 import Slider from './components/Slider'
+import Autor from './components/Autor'
 
 import './styles/global.css'
 
@@ -22,6 +23,7 @@ class App extends Component {
         <Sobre />
         <Servicos />
         <Contato />
+        <Autor/>
       </div>
     )
   }

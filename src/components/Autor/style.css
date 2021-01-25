@@ -51,14 +51,14 @@
     margin-top: 2em;
 }
 
-.sobre__text{
+.sobre__text1{
     color: black;
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
     text-align: justify;
 }
 
-.sobre__image1{
+.sobre__image2{
     margin-right: 5%;
 }
 
@@ -68,17 +68,22 @@
     vertical-align: middle;
 }
 
-.sobre__image1 img{
+.sobre__image2 img{
     vertical-align: middle;
+    margin-right: 1.5em;
+    border-radius: 45%; 
+    float: left;
+    shape-outside: ellipse();
 }
 @media (max-width: 900px) {
+
 
     .sobre__info{
         align-items: center;
         flex-wrap: wrap; /*função pra quebrar os elemntos*/
 
     }
-    .sobre__text{
+    .sobre__text1{
         font-size: 1em;
         width: 100%; 
 

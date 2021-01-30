@@ -61,7 +61,7 @@
   display: flex;
   flex-wrap: wrap;
   font-family: Oswald-SemiBold;
-  margin: 11% 0 0 5%;
+  margin: 8% 0 0 5%;
 }
 
 .book-essenz-name{
@@ -126,12 +126,12 @@
 
 .image-v {
   float: right;
-  margin: -6% 4% 0 0;
+  margin: -7% 4% 0 0;
 }
 
-.image-v {
+.image-e {
   float: right;
-  margin: -14% 4% 0 0;
+  margin: -14% 0 0 0;
 }
 
 .helper {
@@ -193,7 +193,7 @@
 .awssld {
   --organic-arrow-thickness: 4px;
   --organic-arrow-height: 40px;
-  --slider-height-percentage: 45%;
+  --slider-height-percentage: 47%;
   --loader-bar-color: #851515;
   --loader-bar-height: 6px;
   --control-button-width: 10%;

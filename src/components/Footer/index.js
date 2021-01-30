@@ -8,7 +8,7 @@ const Footer = () => {
         <container className="container__sobre2">
             <div className="sobre2">
                 <p>
-                Earth Oasis Netzwerk
+                EARTH OASIS NETZWERK
                 </p>
             </div>
         </container>

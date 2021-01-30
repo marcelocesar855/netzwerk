@@ -73,7 +73,7 @@ class slider extends Component {
                <h1 className="seven">DIE ESSENZ</h1>
             </div>
             <div className="traco"></div>
-            <div className='image-v'>
+            <div className='image-e'>
                         <span class="helper"></span>
                         <img src={essenz} alt="EON - DIE ESSENZ" /> 
                     </div>

@@ -8,7 +8,7 @@ const Essenz = () => {
     return (
         <container className="container-main">
             <div className="content-l">
-                <div className="title-l">Earth Oasis Netzwerk - Die Essenz</div>
+                <div className="title-l">EARTH OASIS NETZWERK - Die Essenz</div>
                 <div className="traco-l"></div>
                 <div className="info">
                     <p className="text">

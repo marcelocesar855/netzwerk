@@ -1,6 +1,8 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import vision from '../../assets/images/vision-erde.png'
+import entfaltung from '../../assets/images/entfaltung-erde.png'
+import essenz from '../../assets/images/essenz-erde.png'
 import './styles.css';
 import 'react-awesome-slider/dist/custom-animations/open-animation.css';
 
@@ -45,16 +47,40 @@ class slider extends Component {
       </div>
       </container>
       <container id="home" className="container__home">
-      <div className="home">  
+      <div className="entfaltung">  
          <div>
-            <div className="nome_da_ej">
-               <h1 className="seven">EARTH OASIS NETWORK</h1>
+            <div className="book-vision-name">
+               <h1 className="seven">DIE ENTFALTUNG</h1>
             </div>
             <div className="traco"></div>
+            <div className='image-v'>
+                        <span class="helper"></span>
+                        <img src={entfaltung} alt="EON - DIE ENTFALTUNG" /> 
+                    </div>
          </div>
          <div className="aling__end">
-         <p className="text__home">Dar Vida ao seu projeto<br/> é o nosso objetivo</p>
-         <a href="#contato"><button className="button__contato">Conheça a Visão</button></a>
+         <p className="text__book">MIT<br/><span class="text_enph2">VEREINTER<br/>SCHÖPFERKRAFT</span><br/>
+         VON <span class="text_enph2">GEIST</span> UND <span class="text_enph2">MATERIE</span><br/>
+         DIE <span class="text_enph">ERDE</span> IN EINE<br/>
+         <span class="text_enph">OASE</span> VERWANDELN</p>
+         </div>
+      </div>
+      </container>
+      <container id="home" className="container__home">
+      <div className="essenz">  
+         <div>
+            <div className="book-essenz-name">
+               <h1 className="seven">DIE ESSENZ</h1>
+            </div>
+            <div className="traco"></div>
+            <div className='image-v'>
+                        <span class="helper"></span>
+                        <img src={essenz} alt="EON - DIE ESSENZ" /> 
+                    </div>
+         </div>
+         <div className="aling__end">
+         <p className="text__book">DIE <span class="text_enph">VISION</span><br/>
+         <span class="text_enph2">KOMPAKT</span></p>
          </div>
       </div>
       </container>

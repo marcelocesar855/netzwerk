@@ -39,11 +39,36 @@
   background-image: url(../../assets/images/faktal.png);
 }
 
+.entfaltung {
+  width: 100%;
+  padding: 0px 7% 7% 7%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url(../../assets/images/entfaltung-bg.png);
+}
+
+.essenz {
+  width: 100%;
+  padding: 0px 7% 7% 7%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url(../../assets/images/essenz-bg.jpg);
+}
+
 .book-vision-name{
   display: flex;
   flex-wrap: wrap;
   font-family: Oswald-SemiBold;
   margin: 11% 0 0 5%;
+}
+
+.book-essenz-name{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Oswald-SemiBold;
+  margin: 15% 0 0 5%;
 }
 
 .nome_da_ej{
@@ -102,6 +127,11 @@
 .image-v {
   float: right;
   margin: -6% 4% 0 0;
+}
+
+.image-v {
+  float: right;
+  margin: -14% 4% 0 0;
 }
 
 .helper {

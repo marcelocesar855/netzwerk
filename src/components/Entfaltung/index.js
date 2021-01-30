@@ -8,7 +8,7 @@ const Sobre = () => {
     return (
         <container className="container-main">
             <div className="content-r">
-                <div className="title-r">Earth Oasis Netzwerk - Die Entfaltung</div>
+                <div className="title-r">EARTH OASIS NETZWERK - Die Entfaltung</div>
                 <div className="traco-r"></div>
                 <div className="info">
                     <div className='image-r'>

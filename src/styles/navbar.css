@@ -30,7 +30,7 @@
     background-color: transparent;
     padding: 7px 10px 0px 10px;
     font-family: Montserrat-SemiBold;
-    font-size: 1em;
+    font-size: 1.2em;
     transition: all 0.4s;
 }
 
@@ -47,6 +47,7 @@
     color: white;
     margin-right: 10px;
     transition: all .2s;
+    text-shadow: 2px 2px 2px black;
 }
 
 .nav-text a:hover {

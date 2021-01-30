@@ -44,7 +44,7 @@ class Header extends Component {
     return (
     <div  id='navbar' className='fixed-top eon-navbar'>
       <Navbar className="nav-text" expand="md">
-        <NavbarBrand href="#home">Earth Oasis Network</NavbarBrand>
+        <NavbarBrand href="#home">EARTH OASIS NETZWERK</NavbarBrand>
         <NavbarToggler onClick={this.toggle} >
         <div className="icon"></div>
         <div className="icon"></div>
@@ -53,19 +53,19 @@ class Header extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/clientes/">Das Netzwerk</NavLink>
+              <NavLink href="/clientes/">Das NETZWERK</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#sobre">Os livros</NavLink>
+              <NavLink href="#sobre">Die Bücher</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#contato">Interviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#time">Sobre o autor</NavLink>
+              <NavLink href="#time">Über den Autor</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#servicos">Contato</NavLink>
+              <NavLink href="#servicos">Kontakt</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -12,24 +12,25 @@ const Vision = () => {
                 <div className="traco-l"></div>
                 <div className="info">
                     <p className="text">
-                    Ist es denkbar, dass wir Menschen auf dieser Erde
-                    friedlich miteinander leben? Mit gegenseitigem Respekt
-                    und ohne Kriege, Ausbeutung und Machtmissbrauch?
-                    Ja, wir müssen „nur“ das Paradigma ändern, nachdem
-                    wir leben!
-
-                    Das Earth Oasis Netzwerk bietet mit seiner Vision, die
-                    Vorlage für eine neues Lebensmodell des modernen,
-                    erwachten Menschen.
-                    Eine Vision, in der die Menschen kooperieren, anstatt
-                    wettzustreiten. In der das Miteinander zu Fülle und
-                    Wohlstand aller führt und nicht zu Arm und Reicher.
-                    Das wahre Potential des Menschen ist die Liebe und das
-                    Mitgefühl – nur haben wir das heute vergessen. Die
-                    EON VISION bietet die Architektur für ein erwachtes
-                    Leben in einer für Alle gedeihenden Welt und zeigt, das
-                    es möglich ist die Natur des Menschen in Einklang zu
-                    bringen, mit der Natur der Erde.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ist es denkbar, dass wir Menschen auf dieser Erde friedlich
+                    miteinander leben? Mit gegenseitigem Respekt und ohne
+                    Kriege, Ausbeutung und Machtmissbrauch? Ja, es ist möglich! Wir müssen „nur“ das Paradigma ändern,
+                    nach dem wir leben!
+                    <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Das EARTH OASIS NETZWERK bietet mit seiner ganzheitlichen
+                    VISION die Vorlage für ein neues Lebensmodell des
+                    modernen, erwachten Menschen.<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eine VISION, in der die Menschen kooperieren, anstatt sich in
+                    Streit und gnadenlosem Wettbewerb gegenüberzustehen. In
+                    der das Miteinander zu Fülle und Wohlstand Aller führt und
+                    nicht zu einem immer extremeren Auseinanderdriften der
+                    Schere zwischen Arm und Reich.<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Die wahren Potentiale des Menschen sind Liebe und
+                    Mitgefühl – nur haben wir das heute vergessen. Die EON
+                    VISION bietet die Architektur für ein erwachtes Leben in einer
+                    für Alle gedeihenden Welt. Sie zeigt, dass es möglich ist,
+                    unsere menschliche Natur in Einklang zu bringen mit der uns
+                    umgebenden Natur der Erde, deren Teil wir sind.
                     </p>
                     <div className='image-l'>
                         <span class="helper"></span>

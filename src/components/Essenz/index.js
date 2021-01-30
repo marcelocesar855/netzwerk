@@ -12,21 +12,23 @@ const Essenz = () => {
                 <div className="traco-l"></div>
                 <div className="info">
                     <p className="text">
-                    Die Essenz ist das Grundlagenbuch der Vision in
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Die Essenz ist das Grundlagenbuch der VISION in
                     komprimierter Form. Hier findest du die wichtigsten
-                    Leitgedanken und Ideen der Vision des Earth Oasis
-                    Netzwerk auf knapp 170 Buchseiten.
-
-                    Für all diejenigen, die sich für diese Vision interessieren,
-                    stellen wir das Buch zum Download kostenfrei bereit.
-                    Dazu muss man sich lediglich im Netzwerk anmelden,
-                    ohne eine Art der Verpflichtung, versteht sich. Es geht
-                    uns darum, jedermann/frau das Netzwerk vorzustellen,
-                    um die Möglichkeit zu eröffnen sich damit weiter zu
-                    befassen und aktiv daran mitzuwirken.
-                    Natürlich kann man das Buch auch bestellen –
-                    zusammen mit Band 1 und Band 2 oder auch nur das
-                    Essenzbuch als Einzelausgabe.
+                    Leitgedanken und Ideen der VISION des EARTH OASIS
+                    NETZWERKS auf knapp 170 Buchseiten.
+                    <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Für all diejenigen, die sich für diese VISION interessieren,
+                    stellen wir das Buch zum Download kostenfrei bereit. Dazu
+                    muss man sich lediglich im NETZWERK anmelden, ohne eine
+                    Art der Verpflichtung, versteht sich. Es geht uns darum,
+                    jedermann/frau diesen ganzheitlichen Entfaltungsverbund
+                    vorzustellen, um die Möglichkeit zu eröffnen, sich damit
+                    weiter zu befassen und auf Wunsch aktiv daran mitzuwirken.
+                    <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Natürlich kann man das Buch auch bestellen – zusammen mit
+                    Band 1 – DIE VISION (590 Seiten) - und Band 2 – DIE
+                    ENTFALTUNG (205 Seiten) - oder auch nur das Essenz-Buch
+                    als Einzelausgabe.
                     </p>
                     <div className='image-l'>
                         <span class="helper"></span>

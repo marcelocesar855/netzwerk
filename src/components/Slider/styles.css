@@ -30,6 +30,22 @@
   background-image: url(../../assets/images/netzwerk.jpg);
 }
 
+.vision {
+  width: 100%;
+  padding: 0px 7% 7% 7%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url(../../assets/images/faktal.png);
+}
+
+.book-vision-name{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Oswald-SemiBold;
+  margin: 11% 0 0 5%;
+}
+
 .nome_da_ej{
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +63,7 @@
   width: 5em;
   box-shadow: 2px 2px 2px black;
   height: .5em;
-  margin-left: 15px;
+  margin-left: 5%;
   background: #48D1CC;
   border-radius: .2em;
 }
@@ -64,6 +80,34 @@
   font-family: Montserrat-Regular;
   margin: 8% 0 0 0;
   color: white !important;
+}
+
+.text__book{
+  font-size: 1.5em ;
+  font-family: Montserrat-Regular;
+  margin: 4% 0 0 4%;
+  color: white !important;
+  text-align: center;
+}
+
+.text_enph{
+  font-size: 2.1em;
+}
+
+
+.text_enph2{
+  font-size: 1.5em;
+}
+
+.image-v {
+  float: right;
+  margin: -6% 4% 0 0;
+}
+
+.helper {
+  display: inline-block;
+  height: 90%;
+  vertical-align: middle;
 }
 
 .button__contato{

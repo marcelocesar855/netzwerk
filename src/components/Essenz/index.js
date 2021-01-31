@@ -9,7 +9,6 @@ const Essenz = () => {
         <container className="container-main">
             <div className="content-l">
                 <div className="title-l">EARTH OASIS NETZWERK - Die Essenz</div>
-                <div className="traco-l"></div>
                 <div className="info">
                     <p className="text">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Die Essenz ist das Grundlagenbuch der VISION in

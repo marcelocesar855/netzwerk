@@ -4,21 +4,26 @@ import vision from '../../assets/images/vision-erde.png'
 import entfaltung from '../../assets/images/entfaltung-erde.png'
 import essenz from '../../assets/images/essenz-erde.png'
 import './styles.css';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/custom-animations/open-animation.css';
 
 import { Component } from 'react';
 
 class slider extends Component {
+   
   render() {
+   const AutoplaySlider = withAutoplay(AwesomeSlider);   
      return(
-   <AwesomeSlider animation="openAnimation">
+   <AutoplaySlider
+      play={true}
+      cancelOnInteraction={false}
+      interval={5000} animation="openAnimation">
       <container id="home" className="container__home">
       <div className="home">  
          <div>
             <div className="nome_da_ej">
                <h1 className="seven">EARTH OASIS NETZWERK</h1>
             </div>
-            <div className="traco"></div>
          </div>
          <div className="aling__end">
          <p className="text__home">Dar Vida ao seu projeto<br/> é o nosso objetivo</p>
@@ -32,7 +37,6 @@ class slider extends Component {
             <div className="book-vision-name">
                <h1 className="seven">DIE VISION</h1>
             </div>
-            <div className="traco"></div>
             <div className='image-v'>
                         <span class="helper"></span>
                         <img src={vision} alt="EON - DIE VISION" /> 
@@ -52,7 +56,6 @@ class slider extends Component {
             <div className="book-vision-name">
                <h1 className="seven">DIE ENTFALTUNG</h1>
             </div>
-            <div className="traco"></div>
             <div className='image-v'>
                         <span class="helper"></span>
                         <img src={entfaltung} alt="EON - DIE ENTFALTUNG" /> 
@@ -72,7 +75,6 @@ class slider extends Component {
             <div className="book-essenz-name">
                <h1 className="seven">DIE ESSENZ</h1>
             </div>
-            <div className="traco"></div>
             <div className='image-e'>
                         <span class="helper"></span>
                         <img src={essenz} alt="EON - DIE ESSENZ" /> 
@@ -84,7 +86,7 @@ class slider extends Component {
          </div>
       </div>
       </container>
-   </AwesomeSlider>
+   </AutoplaySlider>
      )}}
 
 export default slider;

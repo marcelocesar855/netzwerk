@@ -9,7 +9,6 @@ const Vision = () => {
         <container className="container-main">
             <div className="content-l">
                 <div className="title-l">EARTH OASIS NETZWERK - Die VISION</div>
-                <div className="traco-l"></div>
                 <div className="info">
                     <p className="text">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ist es denkbar, dass wir Menschen auf dieser Erde friedlich

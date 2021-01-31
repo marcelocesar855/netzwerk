@@ -9,9 +9,11 @@ html, body, #root {
     display: flex;
     align-items: center;
 }
+
 .wrapper {
-    display: flex;
-    flex-direction: line;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: table;
 }

@@ -9,7 +9,6 @@ const Autor = () => {
         <container className="container-main">
             <div className="content-r">
                 <div className="title-r">Über den Autor</div>
-                <div className="traco-r"></div>
                 <div className="info">
                     <p className="text">
                     <div className='image-autor'>

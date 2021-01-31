@@ -27,28 +27,26 @@ class Header extends Component {
 
   handleScroll() {
   var currentScrollPos = window.pageYOffset;
-  if(this.state.prevScrollpos < 200){
-    document.getElementById("navbar").style.background = "transparent";
+  if(this.state.prevScrollpos < 75){
+    document.getElementById("navbar").style.top = "0";
   }
   else if (this.state.prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-    document.getElementById("navbar").style.background = "#48D1CC";
   } else {
     document.getElementById("navbar").style.top = "-75px";
-    document.getElementById("navbar").style.opacity = "#48D1CC";
   }
   this.setState({prevScrollpos : currentScrollPos});
 }
 
   toggle = () => {
     this.setState({isOpen : !this.state.isOpen})
-    document.getElementById("navbar").style.background = "#48D1CC";
 }
+
   render () {
     return (
-    <div  id='navbar' className='fixed-top eon-navbar'>
-      <Navbar className="nav-text" expand="md">
-        <NavbarBrand href="#home">EARTH OASIS NETZWERK</NavbarBrand>
+    <div  id='navbar' className='fixed-top eon-navbar-books'>
+      <Navbar className="nav-text-books" expand="md">
+        <NavbarBrand href="/">EARTH OASIS NETZWERK</NavbarBrand>
         <NavbarToggler onClick={this.toggle} >
         <div className="icon"></div>
         <div className="icon"></div>
@@ -58,6 +56,9 @@ class Header extends Component {
           <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink href="/clientes/">Das NETZWERK</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#sobre">Die Bücher</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>

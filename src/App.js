@@ -1,30 +1,32 @@
 import React, { Component } from 'react';
-import Header from './components/Header'
-import Vision from './components/Vision'
-import Entfaltung from './components/Entfaltung';
-import Essenz from './components/Essenz'
-import Slider from './components/Slider'
-import Autor from './components/Autor'
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Footer from './components/Footer'
-
+import routes from './routes'
 import './styles/global.css'
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-       className: ''
-    }
-  }
+
+  getRoutes = routes => {
+    return routes.map((prop, key) => {
+        return (
+          <Route
+            path={prop.path}
+            component={prop.component}
+            exact={prop.exact}
+            key={key}
+          />
+        );
+    });
+  };
+
   render() {
     return(
       <div>
-        <Header />
-        <Slider/>
-        <Vision />
-        <Entfaltung />
-        <Essenz />
-        <Autor/>
+        <BrowserRouter>
+          <Switch>
+              {this.getRoutes(routes)}
+          </Switch>
+        </ BrowserRouter>
         <Footer/>
       </div>
     )

@@ -34,6 +34,14 @@
     transition: all 0.4s;
 }
 
+.eon-navbar-books{
+    background-color: #48D1CC;
+    padding: 7px 10px 0px 10px;
+    font-family: Montserrat-SemiBold;
+    font-size: 1.2em;
+    transition: all 0.4s;
+}
+
 .navbar {
     border-top: 1px solid white;
 }
@@ -50,7 +58,38 @@
     text-shadow: 2px 2px 2px black;
 }
 
+.dropdown-menu {
+    background-color: #48D1CC;
+}
+
+.dropdown-item:hover {
+    background-color: #48D1CC;
+}
+
+.dropdown-menu button a{
+    padding: 1em;
+    color: white;
+    margin-right: 10px;
+    transition: all .2s;
+}
+
+.dropdown-menu button a:hover{
+    color: #D3D3D3;
+    border-bottom: 2px solid #D3D3D3;
+}
+  
+.nav-text-books a {
+    color: white;
+    margin-right: 10px;
+    transition: all .2s;
+}
+
 .nav-text a:hover {
+    color: #D3D3D3;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.nav-text-books a:hover {
     color: #D3D3D3;
     border-bottom: 2px solid #D3D3D3;
 }

@@ -60,6 +60,7 @@
 
 .dropdown-menu {
     background-color: #48D1CC;
+    transition: all .2s;
 }
 
 .dropdown-item:hover {

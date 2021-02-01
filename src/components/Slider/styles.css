@@ -93,13 +93,6 @@
   border-radius: .2em;
 }
 
-.aling__end{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
 .text__home{
   font-size: 1.5em ;
   font-family: Montserrat-Regular;
@@ -141,7 +134,7 @@
 }
 
 .button__contato{
-  width: 15em;
+  width: 14em;
   height: 3em;
   color: white;
   background-color: #48D1CC;
@@ -150,7 +143,6 @@
   font-size: 1em;
   margin: 4em 10px 10px 10px;
   font-family: Montserrat-Bold;
-
 }
 
 @media all and (max-width: 520px) {

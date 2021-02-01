@@ -27,7 +27,7 @@ class slider extends Component {
          </div>
          <div className="aling__end">
          <p className="text__home">Dar Vida ao seu projeto<br/> é o nosso objetivo</p>
-         <a href="#contato"><button className="button__contato">Conheça a Visão</button></a>
+         <button className="button__contato">Erkunde die VISION!</button>
          </div>
       </div>
       </container>

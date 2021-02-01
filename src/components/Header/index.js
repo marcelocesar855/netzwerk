@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -35,7 +34,7 @@ class Header extends Component {
     document.getElementById("navbar").style.background = "#48D1CC";
   } else {
     document.getElementById("navbar").style.top = "-75px";
-    document.getElementById("navbar").style.opacity = "#48D1CC";
+    document.getElementById("navbar").style.background = "#48D1CC";
   }
   this.setState({prevScrollpos : currentScrollPos});
 }
@@ -48,7 +47,7 @@ class Header extends Component {
     return (
     <div  id='navbar' className='fixed-top eon-navbar'>
       <Navbar className="nav-text" expand="md">
-        <NavbarBrand href="#home">EARTH OASIS NETZWERK</NavbarBrand>
+        <NavLink href="/">EARTH OASIS NETZWERK</NavLink>
         <NavbarToggler onClick={this.toggle} >
         <div className="icon"></div>
         <div className="icon"></div>

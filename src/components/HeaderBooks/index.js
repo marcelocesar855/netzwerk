@@ -3,7 +3,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -46,7 +45,7 @@ class Header extends Component {
     return (
     <div  id='navbar' className='fixed-top eon-navbar-books'>
       <Navbar className="nav-text-books" expand="md">
-        <NavbarBrand href="/">EARTH OASIS NETZWERK</NavbarBrand>
+        <NavLink href="/">EARTH OASIS NETZWERK</NavLink>
         <NavbarToggler onClick={this.toggle} >
         <div className="icon"></div>
         <div className="icon"></div>
@@ -56,9 +55,6 @@ class Header extends Component {
           <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink href="/clientes/">Das NETZWERK</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#sobre">Die Bücher</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>

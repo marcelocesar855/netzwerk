@@ -1,0 +1,96 @@
+@font-face{
+    font-family: Oswald-Regular;
+    src: url(../../assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: inherit;
+}
+
+.content-r {
+    max-width: 100%;
+    padding: 5%;
+    background: #F5F5F5;
+}
+
+.title-r{
+    text-align: right;
+    color: #48D1CC;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+    font-family: Oswald-Regular;
+
+}
+
+.traco-r{
+  width: 5em;
+  float:right;
+  margin-right: 15px;
+  box-shadow: 2px 2px 2px black;
+  height: .5em;
+  background: #48D1CC;
+  border-radius: .2em;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.text{
+    color: black;
+    font-family: Montserrat-Regular;    
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.image-autor{
+    margin-right: 5%;
+}
+
+.helper {
+    display: inline-block;
+    height: 90%;
+    vertical-align: middle;
+}
+
+.image-autor img{
+    vertical-align: middle;
+    margin-right: 1.5em;
+    border-radius: 45%; 
+    float: left;
+    shape-outside: ellipse();
+}
+@media (max-width: 900px) {
+
+
+    .image-autor img{
+        height: 260px;
+        width: auto;
+    }
+
+    .info{
+        align-items: center;
+        flex-wrap: wrap; /*função pra quebrar os elemntos*/
+
+    }
+    .text{
+        font-size: 1em;
+        width: 100%; 
+
+    }
+}

@@ -1,8 +1,66 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .img-book{
     max-width: 200px;
     display:block;
     margin:auto;
     padding: 3em 0 3em 0;
+}
+
+.img-book-modal{
+    display:block;
+    margin:auto;
+    padding: 3em 0 3em 0;
+}
+
+.content {
+    max-width: 100%;
+    padding: 3% 0 0 3%;
+}
+
+.title{
+    color: #48D1CC;
+    font-size: 2.3em;
+    font-family: Oswald-Regular;
+}
+
+.info-book{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.info-book-w{
+    text-align: center;
+    margin-top: 1em;
+    visibility: visible;
+}
+
+.info-book-m{
+    text-align: center;
+    margin-top: 1em;
+    visibility: hidden;
+}
+
+.text-book{
+    color: black;
+    font-family: Montserrat-Regular;    
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 2;
+}
+
+.text-book-back{
+    color: black;
+    font-family: Montserrat-Regular;    
+    font-size: 1.05em;
+    text-align: justify;
+}
+
+.subtitle{
+    color: #48D1CC;
+    font-size: 2em;
+    font-family: Oswald-Regular;
+
 }
 
 .container {
@@ -12,6 +70,49 @@
 
 .carousel {
     background-color: #fff;
+    margin-bottom: 1em;
+}
+
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+.button-buy{
+  width: 11em;
+  height: 3em;
+  color: white;
+  background-color: #32CD32;
+  border-radius: .3em ;
+  border: none;
+  font-size: 1em;
+  font-family: Montserrat-Bold;
+  display:block;
+  margin:auto;
+}
+
+.button-pdf{
+    width: 14em;
+    height: 3em;
+    color: white;
+    background-color: #778899;
+    border-radius: .3em ;
+    border: none;
+    font-size: 1em;
+    font-family: Montserrat-Bold;
+    display:block;
+    margin:auto;
+  }
+
+  .fa-file-pdf-o{
+      margin-left: 0.2em;
+    font-size:24px
+  }
+
+.container .row {
+    margin: 0 1em -4em 1em;
 }
 
 .carousel-control-next-icon{
@@ -21,3 +122,36 @@
 .carousel-control-prev-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%4F4F4F' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
 }
+
+@media all and (max-width: 470px) {
+    .col-lg-8{
+      float: left;
+    }
+  }
+
+  
+@media all and (max-width: 992px) {
+    .info-book-w{
+        visibility: hidden;
+        height: 0;
+    }
+    .info-book-m{
+        visibility: visible;
+    }
+
+    .container .row {
+        margin: 0 1em 3em 1em;
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    .container {
+        margin-top: 73px;
+        background-color: #f7f7f7;
+    }
+
+    .content {
+        max-width: 100%;
+        padding: 5% 0 0 5%;
+    }
+  }

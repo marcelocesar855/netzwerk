@@ -56,7 +56,7 @@ class Header extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/clientes/">Das NETZWERK</NavLink>
+              <NavLink>Das NETZWERK</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav>
@@ -67,21 +67,21 @@ class Header extends Component {
                   <NavLink href="/vision-buecher">Die VISION</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="/vision-entfaltung">Die Entfaltung</NavLink>
+                  <NavLink href="/entfaltung-buecher">Die Entfaltung</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="/vision-essenz">Die Essenz</NavLink>
+                  <NavLink href="/essenz-buecher">Die Essenz</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="#contato">Interviews</NavLink>
+              <NavLink>Interviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#time">Über den Autor</NavLink>
+              <NavLink>Über den Autor</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#servicos">Kontakt</NavLink>
+              <NavLink>Kontakt</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

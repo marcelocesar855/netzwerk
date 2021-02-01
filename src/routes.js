@@ -17,7 +17,7 @@ var routes = [
       component: Vision
     },
     {
-      path: "/enfaltung-buecher",
+      path: "/entfaltung-buecher",
       name: "Enfaltung",
       exact: false,
       component: Entfaltung

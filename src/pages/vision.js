@@ -110,7 +110,7 @@ class Vision extends Component {
                       Welt, in der freie, selbstbestimmte Menschen friedlich zusammen
                       leben und schöpferisch tätig sind? Leider sprechen die in vielen
                       Lebensbereichen zunehmenden Gefahren und Fehlentwicklungen
-                      eine andere Sprache.
+                      eine andere Sprache.<br/>
                       Die VISION des ganzheitlichen Drei-Ebenen NETZWERKS bietet
                       praktikable Lösungen, die sich an unseren wahren Möglichkeiten
                       ausrichten. Individuelle Bewusstwerdungs- und Heilungsprozesse

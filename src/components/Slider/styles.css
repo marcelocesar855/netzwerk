@@ -150,6 +150,93 @@
     margin: 25% 0 0 0;
   }
 }
+
+
+@media all and (max-width: 768px) and (min-width: 631px) {
+  .book-vision-name{
+    margin: 14% 0 0 2%;
+  }
+
+  .book-essenz-name{
+    margin: 27% 0 0 5%;
+  }
+
+  .text__book-s{
+    font-size: 1.5em ;
+    margin: 4% 0 0 -4%;
+  }
+
+  .image-v {
+    margin: -7% -8% 0 0;
+  }
+
+  .image-e {
+    margin: -22% -8% 0 0;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .text_enph{
+    font-size: 1.7em;
+  }
+  
+  .text_enph2{
+    font-size: 1.2em;
+  }
+  .book-vision-name{
+    margin: 18% 0 0 2%;
+  }
+
+  .book-essenz-name{
+    margin: 25% 0 0 5%;
+  }
+
+  .text__book-s{
+    font-size: 1.5em ;
+    margin: 4% 0 0 -4%;
+  }
+
+  .image-v {
+    margin: 97% -8% 0 0;
+  }
+
+  .image-e {
+    margin: 33% -8% 0 0;
+  }
+}
+
+@media all and (max-width: 630px) and (min-width: 451px) {
+  .text_enph{
+    font-size: 1.9em;
+  }
+  
+  
+  .text_enph2{
+    font-size: 1.3em;
+  }
+  
+  .book-vision-name{
+    margin: 14% 0 0 2%;
+  }
+
+  .book-essenz-name{
+    margin: 33% 0 0 5%;
+  }
+
+  .text__book-s{
+    font-size: 1.5em ;
+    margin: 4% 0 0 -4%;
+  }
+
+  .image-v {
+    margin: 77% -8% 0 0;
+  }
+
+  .image-e {
+    margin: 33% -8% 0 0;
+  }
+}
+
 @media all and (max-width: 810px) {
   .nome_da_ej{
     margin: 25% 0 0 0;
@@ -201,39 +288,37 @@
   --control-bullet-active-color: #6a6a6a;
   --content-background-color: #2f2f2f; }
 
-  
-  @media all and (max-width: 376px) {
+
+  @media all and (max-width: 450px) {
     .awssld__controls {
       visibility: hidden; 
     } 
     .awssld {
-      --slider-height-percentage: 130%; 
-    }
-  }
-  
-  @media all and (max-width: 450px) and (min-width: 377px) {
-    .awssld__controls {
-      visibility: hidden; 
-    } 
-    .awssld {
-      --slider-height-percentage: 115%; 
+      --slider-height-percentage: 205%; 
     }
   }
 
-  @media all and (max-width: 630px) and (min-width: 451px) {
+  @media all and (max-width: 630px) and (min-width:451px){
     .awssld__controls {
       visibility: hidden; 
     } 
     .awssld {
-      --slider-height-percentage: 100%; 
+      --slider-height-percentage: 187%; 
     }
   }
-  @media all and (max-width: 810px) and (min-width: 631px) {
+
+  @media all and (max-width: 768px) and (min-width: 631px) {
     .awssld__controls {
       visibility: hidden; } 
     
      .awssld {
-        --slider-height-percentage: 70%;
+        --slider-height-percentage: 90%;
+    }
+  }
+
+  @media all and (max-width: 1024px) and (min-width: 769px) {
+     .awssld {
+        --slider-height-percentage: 62%;
     }
   }
 

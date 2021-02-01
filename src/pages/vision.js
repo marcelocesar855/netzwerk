@@ -76,7 +76,7 @@ class Vision extends Component {
         <div className='container'>
         <div className='row'>
           <div className='col-lg-4'>
-            <Carousel interval={7000} ride={'carousel'}
+            <Carousel className='carousel-main' interval={7000} ride={'carousel'}
               activeIndex={this.state.activeIndex}
               next={this.next}
               previous={this.previous}>
@@ -91,7 +91,7 @@ class Vision extends Component {
             ISBN: 978-3-9822627-1-0<br/>
             Alle Rechte vorbehalten: ©EARTH OASIS GmbH
             </p>
-          <button className="button-pdf">Lesen das vorwort! <i class="fa fa-file-pdf-o"></i></button>
+          <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
           </div>
           </div>
           <div className='col col-lg-8'>
@@ -99,7 +99,7 @@ class Vision extends Component {
                   <div className="subtitle">EARTH OASIS NETZWERK</div>
                   <div className="end">
                   <div className="title">Die VISION</div>
-                    <button className="button-buy">Kaufe das buch!</button>
+                    <button className="button-buy">Zur Buch-bestellung!</button>
                   </div>
                   <div className="info-book">
                       <p className="text-book-back">Mit der Macht unseres Verstandesdenkens haben wir die materielle
@@ -129,7 +129,7 @@ class Vision extends Component {
                 ISBN: 978-3-9822627-1-0<br/>
                 Alle Rechte vorbehalten: ©EARTH OASIS GmbH
                 </p>
-              <button className="button-pdf">Lesen das vorwort! <i class="fa fa-file-pdf-o"></i></button>
+              <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
               </div>
           </div>
         </div>

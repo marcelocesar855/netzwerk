@@ -25,8 +25,9 @@ class slider extends Component {
                <h1 className="seven">EARTH OASIS NETZWERK</h1>
             </div>
          </div>
-         <div className="aling__end">
-         <p className="text__home">Dar Vida ao seu projeto<br/> é o nosso objetivo</p>
+         <div className="end">
+         <p className="text__home">. . . Eine Entdeckungsreise in<br/>
+         unsere unbegrenzten Potenziale . . .</p>
          <button className="button__contato">Erkunde die VISION!</button>
          </div>
       </div>
@@ -42,8 +43,8 @@ class slider extends Component {
                         <img src={vision} alt="EON - DIE VISION" /> 
                     </div>
          </div>
-         <div className="aling__end">
-         <p className="text__book">WIE <span class="text_enph">WIR</span><br/>
+         <div className="end">
+         <p className="text__book-s">WIE <span class="text_enph">WIR</span><br/>
          EINE <span class="text_enph2">GEDEIHENDE</span><br/>
          <span class="text_enph">ZUKUNFT</span> IN<br/> DER <span class="text_enph2">GEGENWART</span><br/>
          <span class="text_enph2">ERSCHAFFEN</span></p>
@@ -61,8 +62,8 @@ class slider extends Component {
                         <img src={entfaltung} alt="EON - DIE ENTFALTUNG" /> 
                     </div>
          </div>
-         <div className="aling__end">
-         <p className="text__book">MIT<br/><span class="text_enph2">VEREINTER<br/>SCHÖPFERKRAFT</span><br/>
+         <div className="end">
+         <p className="text__book-s">MIT<br/><span class="text_enph2">VEREINTER<br/>SCHÖPFERKRAFT</span><br/>
          VON <span class="text_enph2">GEIST</span> UND <span class="text_enph2">MATERIE</span><br/>
          DIE <span class="text_enph">ERDE</span> IN EINE<br/>
          <span class="text_enph">OASE</span> VERWANDELN</p>
@@ -80,8 +81,8 @@ class slider extends Component {
                         <img src={essenz} alt="EON - DIE ESSENZ" /> 
                     </div>
          </div>
-         <div className="aling__end">
-         <p className="text__book">DIE <span class="text_enph">VISION</span><br/>
+         <div className="end">
+         <p className="text__book-s">DIE <span class="text_enph">VISION</span><br/>
          <span class="text_enph2">KOMPAKT</span></p>
          </div>
       </div>

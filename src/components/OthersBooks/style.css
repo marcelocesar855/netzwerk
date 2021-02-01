@@ -45,6 +45,17 @@
   border-radius: .2em;
 }
 
+.carousel-item img {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}
+
+.row-books {
+    padding: 3em 0 12% 0;
+}
+
 .info{
     display: flex;
     text-align: center;
@@ -76,7 +87,6 @@
     shape-outside: ellipse();
 }
 @media (max-width: 900px) {
-
 
     .image-autor img{
         height: 260px;

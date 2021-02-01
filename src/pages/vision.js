@@ -11,6 +11,7 @@ import {Clickable} from 'react-clickable';
 import './styles.css';
 import Header from '../components/HeaderBooks'
 import Autor from '../components/Autor'
+import Others from '../components/OthersBooks'
 import vision from '../assets/images/vision3DnoSdw.png'
 import front from '../assets/images/visionfront.jpg'
 import back from '../assets/images/visionback.jpg'
@@ -133,6 +134,7 @@ class Vision extends Component {
           </div>
         </div>
         <Autor/>
+        <Others book1='entfaltung' book2='essenz'/>
       </div>
       <div class="modal fade" id="view" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">

@@ -40,7 +40,7 @@ class slider extends Component {
             </div>
             <div className='image-v'>
                         <span class="helper"></span>
-                        <img src={vision} alt="EON - DIE VISION" /> 
+                        <a href="/vision-buecher"><img src={vision} alt="EON - DIE VISION" /> </a>
                     </div>
          </div>
          <div className="end">
@@ -59,7 +59,7 @@ class slider extends Component {
             </div>
             <div className='image-v'>
                         <span class="helper"></span>
-                        <img src={entfaltung} alt="EON - DIE ENTFALTUNG" /> 
+                        <a href="/entfaltung-buecher"><img src={entfaltung} alt="EON - DIE ENTFALTUNG" /> </a>
                     </div>
          </div>
          <div className="end">
@@ -78,7 +78,7 @@ class slider extends Component {
             </div>
             <div className='image-e'>
                         <span class="helper"></span>
-                        <img src={essenz} alt="EON - DIE ESSENZ" /> 
+                        <a href="/essenz-buecher"><img src={essenz} alt="EON - DIE ESSENZ" /> </a>
                     </div>
          </div>
          <div className="end">

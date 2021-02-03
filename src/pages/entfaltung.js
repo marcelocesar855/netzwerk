@@ -102,11 +102,11 @@ class Entfaltung extends Component {
                     <button className="button-buy">Zur Buch-bestellung!</button>
                   </div>
                   <div className="info-book">
-                      <p className="text-book-back">Immer mehr wache Menschen begreifen intuitiv: eine
+                      <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Immer mehr wache Menschen begreifen intuitiv: eine
                         menschenwürdige Zukunft ist nicht möglich, solange wir das
                         Geistige als grundlegende Schöpfungskraft leugnen und uns so von
                         unseren wahren Potenzialen abschneiden.<br/>
-                        In einer fiktiven Rückschau aus dem Jahre 2045 erleben wir aus der
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In einer fiktiven Rückschau aus dem Jahre 2045 erleben wir aus der
                         Sicht von 13 NETZWERK-Pionieren aus 12 Ländern kraftvolle
                         Potenzialentfaltung. Der ganzheitliche Verbund ist längst zu einer
                         blühenden Oase mit Millionen schöpferisch tätigen Mitgliedern
@@ -116,7 +116,7 @@ class Entfaltung extends Component {
                         Village-Gemeinschaften, die individuelle Gaben wie auch friedliche,
                         erfüllende Formen des Zusammenlebens fördern. Und als
                         verbindende Ebene die Stiftungen, die ein gerechtes
-                        Organisationsmodell für das NETZWERK mit Leben erfüllen.<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organisationsmodell für das NETZWERK mit Leben erfüllen.<br/>
                         Du bist herzlich eingeladen, diese inspirierende VISION zu
                         erkunden! Die Trennung von Körper, Seele und Geist zu
                         überwinden! Neue, erfüllende Lebens(t)räume zu erschließen!

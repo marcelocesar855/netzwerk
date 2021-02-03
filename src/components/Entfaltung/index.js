@@ -12,7 +12,7 @@ const Sobre = () => {
                 <div className="info">
                     <div className='image-r'>
                         <span class="helper"></span>
-                        <img src={image} alt="EON - DIE ENTFALTUNG" /> 
+                        <a href="/essenz-buecher"><img src={image} alt="EON - DIE ENTFALTUNG" /> </a>
                     </div>
                     <p className="text">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wir schreiben das Jahr 2045! Es ist das 20 jährige Jubiläum

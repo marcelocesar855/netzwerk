@@ -19,11 +19,13 @@ class Others extends Component {
     state = {
         book1 : {
             title : '',
-            desc : ''
+            desc : '',
+            ref : ''
         },
         book2 : {
             title : '',
-            desc : ''
+            desc : '',
+            ref : ''
         },
         items1 : [],
         items2 : []
@@ -51,7 +53,8 @@ class Others extends Component {
         this.setState({
             book1 : {
                 title : 'Die VISION',
-                desc : 'Wie wir eine gedeihende zukunft in der gegenwart erschaffen'
+                desc : 'Wie wir eine gedeihende Zukunft in der Gegenwart erschaffen',
+                ref: "/vision-buecher"
             },
             items1 : [
                 {src : visionBook},
@@ -65,7 +68,8 @@ class Others extends Component {
         this.setState({
             book1 : {
                 title : 'Die Entfaltung',
-                desc : 'Mit vereinter schöpferkraft von geist und materie die erde in eine oase verwandeln'
+                desc : 'Mit vereinter Schöpferkraft von Geist und Materie die Erde in eine Oase verwandeln',
+                ref: "/entfaltung-buecher"
             },
             items1 : [
                 {src : entfaltungBook},
@@ -79,7 +83,8 @@ class Others extends Component {
         this.setState({
             book2 : {
                 title : 'Die Entfaltung',
-                desc : 'Mit vereinter schopferkraft von geist und materie die erde in eine oase verwandeln'
+                desc : 'Mit vereinter Schöpferkraft von Geist und Materie die Erde in eine Oase verwandeln',
+                ref: "/entfaltung-buecher"
             },
             items2 : [
                 {src : entfaltungBook},
@@ -93,7 +98,8 @@ class Others extends Component {
         this.setState({
             book2 : {
                 title : 'Die Essenz',
-                desc : 'Die VISION kompakt'
+                desc : 'Die VISION kompakt',
+                ref: "/essenz-buecher"
             },
             items2 : [
                 {src : essenzBook},
@@ -106,7 +112,7 @@ class Others extends Component {
   render() { 
      return(
          <div>
-         <div className="title-l">Die anderen Bücher</div>
+         <div className="title-ob">Die anderen Bücher</div>
             <div className='row row-books'>
             <div className='col-lg'>
                 <div className='row'>
@@ -115,7 +121,7 @@ class Others extends Component {
                     </div>
                     <div className='col-lg'>
                     <div className="content">
-                        <div className="subtitle">{this.state.book1.title}</div>
+                        <div><a  className="subtitle" href={this.state.book1.ref}>{this.state.book1.title}</a></div>
                         <div className="info-book">
                             <p className="text-book-back">{this.state.book1.desc}</p>
                         </div>
@@ -130,7 +136,7 @@ class Others extends Component {
                         </div>
                         <div className='col-lg'>
                         <div className="content">
-                            <div className="subtitle">{this.state.book2.title}</div>
+                            <div><a className="subtitle" href={this.state.book2.ref}>{this.state.book2.title}</a></div>
                             <div className="info-book">
                                 <p className="text-book-back">{this.state.book2.desc}</p>
                             </div>
@@ -138,8 +144,8 @@ class Others extends Component {
                         </div>
                     </div>
             </div>
-            </div>
-            </div>
-     )}}
+        </div>
+   </div>
+)}}
 
 export default Others;

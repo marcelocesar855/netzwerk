@@ -31,7 +31,7 @@ const Essenz = () => {
                     </p>
                     <div className='image-l'>
                         <span class="helper"></span>
-                        <img src={image} alt="EON - ESSENZ" /> 
+                        <a href="/essenz-buecher"><img src={image} alt="EON - ESSENZ" /> </a>
                     </div>
                 </div>
             </div>

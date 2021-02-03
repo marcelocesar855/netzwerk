@@ -33,7 +33,7 @@ const Vision = () => {
                     </p>
                     <div className='image-l'>
                         <span class="helper"></span>
-                        <img src={image} alt="EON - DIE VISION" /> 
+                        <a href="/vision-buecher"><img src={image} alt="EON - DIE VISION" /> </a>
                     </div>
                 </div>
             </div>

@@ -102,7 +102,7 @@ class Vision extends Component {
                     <button className="button-buy">Zur Buch-bestellung!</button>
                   </div>
                   <div className="info-book">
-                      <p className="text-book-back">Mit der Macht unseres Verstandesdenkens haben wir die materielle
+                      <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mit der Macht unseres Verstandesdenkens haben wir die materielle
                       Welt erschlossen, uns die Erde untertan gemacht. Aber stellen wir
                       uns der damit verbundenen Verantwortung? Haben wir eine
                       gedeihende Welt erschaffen, die unseren großen Potenzialen als
@@ -111,7 +111,7 @@ class Vision extends Component {
                       leben und schöpferisch tätig sind? Leider sprechen die in vielen
                       Lebensbereichen zunehmenden Gefahren und Fehlentwicklungen
                       eine andere Sprache.<br/>
-                      Die VISION des ganzheitlichen Drei-Ebenen NETZWERKS bietet
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Die VISION des ganzheitlichen Drei-Ebenen NETZWERKS bietet
                       praktikable Lösungen, die sich an unseren wahren Möglichkeiten
                       ausrichten. Individuelle Bewusstwerdungs- und Heilungsprozesse
                       offener Menschen werden dabei zu kraftvollen Impulsgebern für

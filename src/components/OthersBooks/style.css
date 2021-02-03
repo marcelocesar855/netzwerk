@@ -26,8 +26,8 @@
     background: #F5F5F5;
 }
 
-.title-r{
-    text-align: right;
+.title-ob{
+    padding: 5%;
     color: #48D1CC;
     text-shadow: 2px 2px 2px black;
     font-size: 3rem;
@@ -45,15 +45,15 @@
   border-radius: .2em;
 }
 
-.carousel-item img {
+.carousel {
     max-width: 200px;
+    height: 290px;
     display: block;
-    margin: auto;
-    padding: 1em 0 1em 0;
+    margin: auto auto 8% auto;
 }
 
 .row-books {
-    padding: 3em 0 12% 0;
+    padding: 0 0 12% 0;
 }
 
 .info{

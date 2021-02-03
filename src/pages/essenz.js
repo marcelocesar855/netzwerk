@@ -102,7 +102,7 @@ class Essenz extends Component {
                     <button className="button-buy">Zur Buch-bestellung!</button>
                   </div>
                   <div className="info-book">
-                      <p className="text-book-back">Das hier kompakt in seiner Essenz vorgestellte EARTH OASIS
+                      <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Das hier kompakt in seiner Essenz vorgestellte EARTH OASIS
                         NETZWERK freiheitlicher Potenzialentfaltung fördert den Menschen
                         in seiner Ganzheit als kraftvolle Körper-Geist-Seele Einheit. Dabei
                         gehören individuelles inneres Wachstum, äußerer wirtschaftlicher
@@ -112,7 +112,7 @@ class Essenz extends Component {
                         wachsender Lebensfreude all der Menschen, die sich in diesem
                         Drei-Ebenen Entfaltungsverbund engagieren. Und dabei volle
                         Verantwortung für das eigene Dasein übernehmen.<br/>
-                        Alles im Leben hat seine Zeit! Und wahrscheinlich ist es kein Zufall,
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alles im Leben hat seine Zeit! Und wahrscheinlich ist es kein Zufall,
                         dass diese drei Bücher – 25 Jahre, nachdem diese VISION erstmals
                         sichtbar wurde - gerade jetzt, in den Zeiten der Corona-Krise
                         beendet wurden und erscheinen. Nutzen wir also die machtvolle

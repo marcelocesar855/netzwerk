@@ -89,7 +89,7 @@ class Vision extends Component {
             <p className="text-book">Autor: Victor Rollhausen<br/>
             1. Auflage: November 2020<br/>
             ISBN: 978-3-9822627-1-0<br/>
-            Alle Rechte vorbehalten: ©EARTH OASIS GmbH
+            Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
             </p>
           <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
           </div>
@@ -99,7 +99,7 @@ class Vision extends Component {
                   <div className="subtitle">EARTH OASIS NETZWERK</div>
                   <div className="end">
                   <div className="title">Die VISION</div>
-                    <button className="button-buy">Zur Buch-bestellung!</button>
+                    <button className="button-buy">Zur Buchbestellung!</button>
                   </div>
                   <div className="info-book">
                       <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mit der Macht unseres Verstandesdenkens haben wir die materielle
@@ -127,7 +127,7 @@ class Vision extends Component {
                 <p className="text-book">Autor: Victor Rollhausen<br/>
                 1. Auflage: November 2020<br/>
                 ISBN: 978-3-9822627-1-0<br/>
-                Alle Rechte vorbehalten: ©EARTH OASIS GmbH
+                Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
                 </p>
               <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
               </div>

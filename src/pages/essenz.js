@@ -89,7 +89,7 @@ class Essenz extends Component {
             <p className="text-book">Autor: Victor Rollhausen<br/>
             1. Auflage: November 2020<br/>
             ISBN: 978-3-9822627-3-4<br/>
-            Alle Rechte vorbehalten: ©EARTH OASIS GmbH
+            Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
             </p>
           <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
           </div>
@@ -99,7 +99,7 @@ class Essenz extends Component {
                   <div className="subtitle">EARTH OASIS NETZWERK</div>
                   <div className="end">
                   <div className="title">Die Essenz</div>
-                    <button className="button-buy">Zur Buch-bestellung!</button>
+                    <button className="button-buy">Zur Buchbestellung!</button>
                   </div>
                   <div className="info-book">
                       <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Das hier kompakt in seiner Essenz vorgestellte EARTH OASIS
@@ -126,7 +126,7 @@ class Essenz extends Component {
                 <p className="text-book">Autor: Victor Rollhausen<br/>
                 1. Auflage: November 2020<br/>
                 ISBN: 978-3-9822627-3-4<br/>
-                Alle Rechte vorbehalten: ©EARTH OASIS GmbH
+                Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
                 </p>
               <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
               </div>

@@ -91,7 +91,9 @@ class Vision extends Component {
             ISBN: 978-3-9822627-1-0<br/>
             Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
             </p>
-          <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
+                <button  className="button-pdf">
+                    <a href={require("../assets/docs/LH_AUSZUG.pdf")} download="eonVISION">Leseproben!</a>
+              </button>
           </div>
           </div>
           <div className='col col-lg-8'>
@@ -129,7 +131,9 @@ class Vision extends Component {
                 ISBN: 978-3-9822627-1-0<br/>
                 Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
                 </p>
-              <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
+                <button  className="button-pdf">
+                    <a href={require("../assets/docs/LH_AUSZUG.pdf")} download="eonVISION">Leseproben!</a>
+              </button>
               </div>
           </div>
         </div>

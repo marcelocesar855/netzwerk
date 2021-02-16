@@ -91,7 +91,9 @@ class Entfaltung extends Component {
             ISBN: 978-3-9822627-2-7<br/>
             Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
             </p>
-          <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
+                <button  className="button-pdf">
+                    <a href={require("../assets/docs/RH_AUSZUG.pdf")} download="eonEntfaltung">Leseproben!</a>
+              </button>
           </div>
           </div>
           <div className='col col-lg-8'>
@@ -129,7 +131,9 @@ class Entfaltung extends Component {
                 ISBN: 978-3-9822627-2-7<br/>
                 Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
                 </p>
-              <button className="button-pdf">Leseproben! <i class="fa fa-file-pdf-o"></i></button>
+                <button  className="button-pdf">
+                    <a href={require("../assets/docs/RH_AUSZUG.pdf")} download="eonEntfaltung">Leseproben!</a>
+              </button>
               </div>
           </div>
         </div>

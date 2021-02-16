@@ -92,7 +92,7 @@ class Entfaltung extends Component {
             Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
             </p>
                 <button  className="button-pdf">
-                    <a href={require("../assets/docs/RH_AUSZUG.pdf")} download="eonEntfaltung">Leseproben!</a>
+                    <a href={require("../assets/docs/RH_AUSZUG.pdf")} download="eonEntfaltung">Leseproben! <i class="fa fa-file-pdf-o"></i></a>
               </button>
           </div>
           </div>
@@ -132,7 +132,7 @@ class Entfaltung extends Component {
                 Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
                 </p>
                 <button  className="button-pdf">
-                    <a href={require("../assets/docs/RH_AUSZUG.pdf")} download="eonEntfaltung">Leseproben!</a>
+                    <a href={require("../assets/docs/RH_AUSZUG.pdf")} download="eonEntfaltung">Leseproben! <i class="fa fa-file-pdf-o"></i></a>
               </button>
               </div>
           </div>

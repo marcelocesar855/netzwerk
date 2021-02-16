@@ -92,7 +92,7 @@ class Vision extends Component {
             Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
             </p>
                 <button  className="button-pdf">
-                    <a href={require("../assets/docs/LH_AUSZUG.pdf")} download="eonVISION">Leseproben!</a>
+                    <a href={require("../assets/docs/LH_AUSZUG.pdf")} download="eonVISION">Leseproben! <i class="fa fa-file-pdf-o"></i></a>
               </button>
           </div>
           </div>
@@ -132,7 +132,7 @@ class Vision extends Component {
                 Alle Rechte vorbehalten:<br/>©EARTH OASIS GmbH
                 </p>
                 <button  className="button-pdf">
-                    <a href={require("../assets/docs/LH_AUSZUG.pdf")} download="eonVISION">Leseproben!</a>
+                    <a href={require("../assets/docs/LH_AUSZUG.pdf")} download="eonVISION">Leseproben! <i class="fa fa-file-pdf-o"></i></a>
               </button>
               </div>
           </div>

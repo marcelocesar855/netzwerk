@@ -20,12 +20,6 @@
     width: inherit;
 }
 
-.content-r {
-    max-width: 100%;
-    padding: 5%;
-    background: #F5F5F5;
-}
-
 .title-ob{
     padding: 5%;
     color: #48D1CC;
@@ -33,16 +27,6 @@
     font-size: 3rem;
     font-family: Oswald-Regular;
 
-}
-
-.traco-r{
-  width: 5em;
-  float:right;
-  margin-right: 15px;
-  box-shadow: 2px 2px 2px black;
-  height: .5em;
-  background: #48D1CC;
-  border-radius: .2em;
 }
 
 .carousel {
@@ -67,24 +51,6 @@
     font-family: Montserrat-Regular;    
     font-size: 1.25em;
     text-align: justify;
-}
-
-.image-autor{
-    margin-right: 5%;
-}
-
-.helper {
-    display: inline-block;
-    height: 90%;
-    vertical-align: middle;
-}
-
-.image-autor img{
-    vertical-align: middle;
-    margin-right: 1.5em;
-    border-radius: 45%; 
-    float: left;
-    shape-outside: ellipse();
 }
 @media (max-width: 900px) {
 

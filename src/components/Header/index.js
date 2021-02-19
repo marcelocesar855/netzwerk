@@ -78,7 +78,7 @@ class Header extends Component {
               <NavLink>Interviews</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>Über den Autor</NavLink>
+              <NavLink href="#autor">Über den Autor</NavLink>
             </NavItem>
             <NavItem>
               <NavLink>Kontakt</NavLink>

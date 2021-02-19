@@ -13,7 +13,7 @@
     src: url(../../assets/fonts/Montserrat-Bold.ttf);
 }
 
-.container__sobre{
+.container__sobre2{
     display: flex;
     justify-content: center;
     height: 100%;
@@ -21,11 +21,11 @@
 }
 
 .sobre2 {
-    width: 100%;
     padding: 10px;
     background: #48D1CC;
     opacity: 80%;
-    
+    position: absolute;
+    width: 100%;
 }
 
 .sobre2 p{

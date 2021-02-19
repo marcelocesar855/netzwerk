@@ -6,7 +6,7 @@ import './style.css'
 const Autor = () => {
 
     return (
-        <container className="container-main">
+        <container id='autor' className="container-main">
             <div className="content-r">
                 <div className="title-r">Über den Autor</div>
                 <div className="info">

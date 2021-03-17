@@ -101,7 +101,7 @@ class Vision extends Component {
                   <div className="subtitle">EARTH OASIS NETZWERK</div>
                   <div className="end">
                   <div className="title">Die VISION</div>
-                    <button className="button-buy">Zur Buchbestellung!</button>
+                    <button className="button-buy" onClick={()=> window.open('https://shop.earth-oasis-netzwerk.de/produkt/earth-oasis-netzwerk-die-vision/', "_blank")}>Zur Buchbestellung!</button>
                   </div>
                   <div className="info-book">
                       <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mit der Macht unseres Verstandesdenkens haben wir die materielle

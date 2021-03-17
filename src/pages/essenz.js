@@ -99,7 +99,7 @@ class Essenz extends Component {
                   <div className="subtitle">EARTH OASIS NETZWERK</div>
                   <div className="end">
                   <div className="title">Die Essenz</div>
-                    <button className="button-buy">Zur Buchbestellung!</button>
+                    <button className="button-buy" onClick={()=> window.open('https://shop.earth-oasis-netzwerk.de/produkt/earth-oasis-netzwerk-die-essenz/', "_blank")}>Zur Buchbestellung!</button>
                   </div>
                   <div className="info-book">
                       <p className="text-book-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Das hier kompakt in seiner Essenz vorgestellte EARTH OASIS

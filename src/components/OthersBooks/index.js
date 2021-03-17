@@ -31,7 +31,7 @@ class Others extends Component {
         items2 : []
     }
 
-    componentWillReceiveProps() {
+    componentDidMount() {
         this.defineBooks(this.props.book1, this.props.book2)
     }
 

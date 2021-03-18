@@ -75,7 +75,7 @@ class Header extends Component {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink>Interviews</NavLink>
+              <NavLink href="/interviews">Interviews</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#autor">Über den Autor</NavLink>

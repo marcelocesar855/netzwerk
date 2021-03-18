@@ -28,7 +28,6 @@ class slider extends Component {
          <div className="end">
          <p className="text__home">. . . Eine Entdeckungsreise in<br/>
          unsere unbegrenzten Potenziale . . .</p>
-         <button className="button__contato">Erkunde die VISION!</button>
          </div>
       </div>
       </container>

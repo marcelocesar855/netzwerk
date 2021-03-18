@@ -3,6 +3,7 @@ import Vision from './pages/vision';
 import Entfaltung from './pages/entfaltung';
 import Essenz from './pages/essenz';
 import Interviews from './pages/interviews';
+import Netzwerk from './pages/netzwerk';
 
 var routes = [
     {
@@ -34,6 +35,12 @@ var routes = [
       name: "Interviews",
       exact: false,
       component: Interviews
+    },
+    {
+      path: "/netzwerk",
+      name: "Netzwerk",
+      exact: false,
+      component: Netzwerk
     }
   ];
 export default routes;
